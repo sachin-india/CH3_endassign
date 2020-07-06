@@ -23,3 +23,5 @@ The assignment focuses on developing code (run_analysis.R) for merging and clean
 * Finally, the mean of each variable is calculated based on subject and activity, sorted and then saved in Indy_Tidy_Data using aggregate, arrange and write.table command.
 
 The final indendent data file created by the code is called Indy_Tidy_Data.txt
+
+The details of the variables, data, and any transformations performed on data are provided in CookBook.md file.
