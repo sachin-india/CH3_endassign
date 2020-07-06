@@ -53,5 +53,5 @@
     Ind_Tidy_Data<- aggregate(.~ Subject + Activity, Tidy_Data, mean)
     Ind_Tidy_Data<- arrange(Ind_Tidy_Data, Subject, Activity)
 #   The second independent data set is written as Ind_Tidy_Data
-    write.table(Ind_Tidy_Data, "C:/Users/sachi/OneDrive/Desktop/Programs/RStudio/CH3_endassgn/Ind_Tidy_Data.txt")
+    write.table(Ind_Tidy_Data, "C:/Users/sachi/OneDrive/Desktop/Programs/RStudio/CH3_endassgn/Ind_Tidy_Data.txt", row.name=FALSE)
     
