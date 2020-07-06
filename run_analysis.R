@@ -3,9 +3,6 @@
 #load library package dplyr
     library(dplyr)
 
-#   Set its parent working directory
-    setwd("C:/Users/sachi/OneDrive/Desktop/Programs/RStudio/CH3_endassgn")
-
 #   Read the given data
     Features<- read.table("UCI HAR Dataset/features.txt", col.names = c("Num", "Functions"))
     Activity_labels<- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("Class", "Activity"))
